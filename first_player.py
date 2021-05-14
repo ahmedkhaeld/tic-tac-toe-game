@@ -7,7 +7,7 @@ from _thread import start_new_thread
 first_player_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # The host and port that the second player will use to connect
-host = "127.0.0.1"
+host = '192.168.1.4'
 port = 8080
 
 # Binding the host and port and setting a listening limit

@@ -2,7 +2,7 @@ import socket
 from tkinter import messagebox, Tk, Label, Button
 from _thread import start_new_thread
 
-host = "127.0.0.1"
+host = '192.168.1.4'
 port = 8080
 
 second_player_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
